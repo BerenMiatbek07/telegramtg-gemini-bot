@@ -1,0 +1,7 @@
+pyTelegramBotAPI
+google-generativeai
+scrapetube
+schedule
+langdetect
+pytube
+flask
