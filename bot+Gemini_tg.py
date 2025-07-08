@@ -121,4 +121,6 @@ import threading
 threading.Thread(target=run_schedule, daemon=True).start()
 
 # Ботты іске қосу (жұмысын үздіксіз жасау үшін)
+# Ботты іске қосу
+keep_alive()  # Бұл өте маңызды! Render Flask портына қарап тұрады!
 bot.infinity_polling()
